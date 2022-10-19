@@ -1,0 +1,11 @@
+#listFindFunction is a function that search the number and return index number
+
+def listFind(lst, target):
+    index = 0
+    while index < len(lst):
+        if lst[index] == target:
+            break
+        index += 1
+    else:
+        index = -1
+    return index
